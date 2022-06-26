@@ -1,0 +1,144 @@
+main {
+    width: 100%;
+    /* overflow: auto; */
+}
+
+header .navbar .navbar-brand {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #000; */
+}
+
+header .navbar .navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+
+header .navbar ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+header .navbar ul li {
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header .navbar ul li a:hover {
+    color: #003471 !important;
+}
+
+header .navbar ul li .dropdown-menu {
+    width: 14rem !important;
+}
+
+header .navbar ul li ul li {
+    padding: 0;
+    overflow: hidden !important;
+}
+
+header .navbar ul li ul li a {
+    background-color: #fff !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    transform: scale(1) !important;
+    transition: .3s all;
+}
+
+header .navbar ul li ul li a:hover {
+    transform: scale(1.1) !important;
+}
+
+
+
+.banner .carousel-indicators [data-bs-target] {
+    width: 15px !important;
+    height: 16px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    background-color: rgb(103 102 102) !important;
+    transition: .3s all;
+    opacity: 1;
+}
+
+.banner .carousel-indicators [data-bs-target]:hover,
+.carousel-indicators [data-bs-target].active {
+    background-color: #003471 !important;
+}
+
+.banner .carousel-item img {
+    height: 80vh;
+}
+
+
+.banner .carousel-caption {
+    right: 0;
+    top: 50%;
+    left: 5%;
+    text-align: start;
+    width: 40%;
+    transform: translate(0, -50%);
+}
+
+.about img {
+    width: 100%;
+}
+
+.about .parah p {
+    line-height: 1.7;
+    margin-top: 2%;
+}
+
+.heading .bar {
+    height: 4px;
+    width: 85px;
+    background: #003471;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.heading .bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background: #ffffff;
+    animation: move 2s linear infinite;
+}
+
+.service {
+    background-color: #676666;
+}
+
+.service .heading {
+    width: fit-content;
+    /* border: 1px solid #000; */
+    margin: auto;
+} 
+
+.service .heading .bar {
+    margin: auto    ;
+}
+
+.service .heading h2 {
+    color: #fff;
+}
+
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(86px);
+    }
+}
