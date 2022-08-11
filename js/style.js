@@ -110,3 +110,12 @@ $(".slider__btnleft").click(function () {
   var owl = $(".all1");
   owl.trigger("prev.owl.carousel");
 });
+
+
+$(document).ready(function () {
+  $(".navbar-nav li:has(ul)").addClass("actives");
+});
+
+$(document).ready(function () {
+  $(".navbar-nav li ul li:has(ul)").addClass("activeness");
+});
