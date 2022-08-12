@@ -1485,6 +1485,11 @@ header .navbar ul li a .for_Service_ {
     .banner .carousel-item img {
         height: fit-content;
     }
+
+    .inner_page.inner_services .services_ .serviceBox{
+        width: 250px;
+        margin: 10px auto;
+    }
 }
 
 
@@ -1501,11 +1506,27 @@ header .navbar ul li a .for_Service_ {
     .inner_page.team .cardmain .cardmain__body {
         text-align: center;
     }
+
+    .inner_page.inner_services .forsection .img {
+        text-align: center;
+    }
+    
+    .inner_page.inner_services .forsection .img img {
+        max-width: 300px;
+    }
     
 }
 @media only screen and (max-width: 575px) {
     .footer__top .footer-logo img{
         width: 50%;
+    }
+    .inner_page.inner_services .website .head .img img{
+        width: 100%
+    }
+}
+@media only screen and (max-width: 393px)  {
+    header .navbar .navbar-brand{
+        max-width: 161px;
     }
 }
 
