@@ -1528,6 +1528,13 @@ header .navbar ul li a .for_Service_ {
     header .navbar .navbar-brand{
         max-width: 161px;
     }
+    .inner_page .inner_banner ul{
+        flex-direction: column;
+    }
+
+    .inner_page .inner_banner ul li::after{
+        content: none;
+    }
 }
 
 
