@@ -113,9 +113,9 @@ $(".slider__btnleft").click(function () {
 
 
 $(document).ready(function () {
-  $(".navbar-nav li:has(ul)").addClass("actives");
+  $(".navbar li.forhover:has(ul)").addClass("arrowDown");
 });
 
 $(document).ready(function () {
-  $(".navbar-nav li ul li:has(ul)").addClass("activeness");
+  $(".navbar li.forhover ul li:has(ul)").addClass("arrowRight");
 });
